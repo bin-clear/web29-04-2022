@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.a{
+    top: 0;left: 0;right: 0;bottom: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    background: linear-gradient(232deg , #BF7373, #594040);
+}
+
+.page{
+    position: absolute;
+    margin:0px 137px;
+}
+
+.container{
+    position: absolute;
+    margin: 52px;
+    
+}
+
+.image{
+    width: 452px;
+    height: 145px;
+    position: absolute;
+    top: 10px;
+    color: aqua;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 2px aqua;
+}
+
+.logo img{
+    transform: scale(1.5) rotate(45deg);
+}
+
+
+
+.image img{
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    right: 0px;
+    border: 5px  solid  #fff ;
+    border-radius: 50%;
+}
+
+.text1{
+    width: 452px;
+    height: 234px;
+    color: #fff;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 78px;
+    text-shadow: #000000 0px;
+    position: absolute;
+    bottom: 88px;
+    text-align: right;
+}
+
+.text2{
+    width: 452px;
+    height: 35px;
+    position: absolute;
+    bottom: 27px;
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+}
+
+.bottons{
+    width: 363px;
+    height: 520px;
+    position: absolute;
+    top: 0;right: 0;bottom: 0;
+}
+
+.bottons .item{
+    width: 503px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    color: #ebe8cc;
+    /* background-color: #6188d4; */
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    font-size: 17.3333px;
+    box-shadow:#4e3f3f6c 0px 6.58667px 0px 0px;
+}
+
+.item:hover{
+    
+    margin : 5px;
+    opacity: 0.8;
+}
+
+.b{
+    background-color: rgba(97, 136, 212, 0.7);
+}
+
+.b0{
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.b1{
+    position: absolute;
+    right: 30px;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+.c{
+    top: 110px;
+    background-color: #c93a9a;
+}
+.d{
+    top: 220px;
+    background-color: red;
+}
+
+.e{
+    top: 330px;
+    background-color: #000000;
+}
+
+.g{
+    top: 440px;
+    background-color: chocolate;
+}
+
+.logo_img{
+    width: 100%;
+    height: 100%;
+    background-color: #5940405e;
+    display: none;
+}
+
+.listImage, .closeImage, .info, .audio{
+    color: #BF7373;
+    font-size: 25px;
+    border-radius: 10px ;
+    
+}
+
+.info:hover,.listImage:hover,.closeImage:hover{
+    opacity: 0.7;
+}
+
+.open{
+    display: list-item ;
+}
